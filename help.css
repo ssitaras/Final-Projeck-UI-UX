@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "zara";
+    src: url(assets/font/zara.otf);
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* LOGIN & REGISTER STYLING */
+.header{
+    display: block;
+    font-size: 16px;
+    margin: 25px 65px;
+    padding-bottom: 50px;
+}
+
+.header a{
+    float: right;
+    padding: 15px;
+    color: black;
+}
+
+.header input, input:active{
+    border: none;
+}
+
+.sub-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    padding-bottom: 50px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.logo-container img {
+    max-width: 300px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.box-container{
+    display: flex;
+    gap: 70px;
+}
+
+.box-item{
+    border: solid 1px black;
+    padding: 10px 25px;
+    max-width: 20%;
+}
+.box-item a{
+    color: black;
+    font-size: 15px;
+}
